@@ -1,6 +1,6 @@
 --- 
 title: "A Minimal Book Example"
-author: "Yihui Xie"
+author: "GG"
 date: "`r Sys.Date()`"
 bibliography:
 - book.bib
@@ -13,7 +13,7 @@ site: bookdown::bookdown_site
 biblio-style: apalike
 ---
 
-# Prerequisites
+# Start
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
@@ -40,9 +40,7 @@ knitr::write_bib(c(
 
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
-
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+Sup, Vector!
 
 ```{r nice-fig, fig.cap='ggplot2 BOI', out.width='80%', fig.asp=.75, fig.align='center'}
 library(ggplot2)
