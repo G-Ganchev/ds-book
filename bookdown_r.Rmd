@@ -49,6 +49,12 @@ ggplot(df) +
   geom_point(aes(x = x, y =y))
 ```
 
+```{r nice-fig2, fig.cap='plotly BOI', out.width='80%', fig.asp=.75, fig.align='center'}
+library(plotly)
+plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length)
+
+```
+
 Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
 
 ```{r nice-tab, tidy=FALSE}
